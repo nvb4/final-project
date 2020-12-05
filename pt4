@@ -190,7 +190,7 @@ Brandon Williams
         href="images/favicon.ico">    
     </head>    
     <body>     
-  <p> Best Highlights: 
+  <p> Best Highlights: </p>
 <p> copy and paste into yt:  https://www.youtube.com/watch?v=cwYfg78dOh4 </p>
   
   
@@ -232,6 +232,31 @@ The Jets have been a respectable team for the last decade, but have been unable 
             </div>        
       </div>    
    </footer>
+   
+      </footer>
+   <html lang="en">    
+    <head>        
+      <meta charset="utf-8">        
+      <title>Contact Form </title>        
+      <link rel="shortcut icon"              
+        href="images/favicon.ico">    
+    </head>    
+    <body>     
+  
+<p> For suggestions or criticism please contact 
+: InfoGiants@Yahoo.com
+Or reach out to us and text us at 7321234567
+ </p>
+  
+  
+     <footer class="footer page-footer font-small ">       
+      <div class="container">            
+           <div class="row">            
+           <span class="text-muted">&copy; |Join 100+ Member at InfoGiants.com | Terms and Conditions| Privacy Statement| </span>            
+            </div>   
+  
+  
+  
   
   body {
         font-family: Verdana, Arial, Helvetica, sans-serif;
@@ -269,11 +294,138 @@ The Jets have been a respectable team for the last decade, but have been unable 
   footer p {    
          font-size: 80%;    text-align: right;}
   
+  /* standard 960 and above *
+  /body {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 100%;    
+        width: 96%;               /* changed from 990 pixels */    
+        max-width: 1200px;        /* maximum width of page */
+         ...
+  }
+  section, article, aside, h1, h2, h3, p {    
+       margin: 0;    
+       padding: 0;
+  }
+  section, article, aside { margin-bottom: 1em; }
   
-
+  p { font-size: .875em; ... }       /* 14 ÷ 16 */
   
+  header { width: 100%; ... }        /* full width of body */
+  header h2 {    
+      font-size: 2.25em;             /* 36 ÷ 16 */    
+      margin-left: 12.12121%;        /* 120 ÷ 990 x 100 */   
+      ... }
+  header img {
+      width: 8.0808%;                /* 80 ÷ 990 x 100 */
+      max-width: 80px;               /* native size */
+      min-width: 40px;               /* minimum size */
+      float: left;
+      margin-left: 2.0202%;          /* 20 ÷ 990 x 100 */
+  }
+  #nav_menu ul { width: 100%; ... }  /* full width of body */
+  #nav_menu ul li { width: 20%; ... }   /* 198 ÷ 990 x 100 */
+  }
+  article {
+      width: 54.0404%;                  /* 535 ÷ 990 x 100 */
+      float: left;
+      margin-left: 2.0202%;             /* 20 ÷ 990 x 100 */
+      padding: 1.5em 2.52525% 0 0;      /* 25 ÷ 990 x 100 */
+  }
+  article h1 { font-size: 1.625em; ...         /* 26 ÷ 16 */
+  article img {max-width: 100%; ... }
   
-  .footer {    
+  aside {
+      width: 35.35353%;                 /* 350 ÷ 990 x 100
+  */ 
+      float: left;
+      padding: 2.0202%;                 /* 20 ÷ 990 x 100 */    
+      background-color: #ffebc6;    
+      margin: 1.5em 2.0202% 0 0;        /* 20 ÷ 990 x 100 */
+  }
+  aside h2 {font-size: 1.25em; ... }   /* 20 ÷ 16 */
+  aside h3 {font-size: 1em; }          /* base font size */
+  aside li {font-size: .875em; ... }   /* 14 ÷ 16 */
+  /* hide the mobile menu initially */
+  #mobile_menu {    
+      display: none;
+  }
+  
+  * tablet portrait to standard 960 */
+  @media only screen and (max-width: 959px) {
+      #nav_menu ul li a { font-size: .875em; }  /* 14 ÷ 16
+  */   
+  section h1, article h1 { font-size: 1.5em; }
+                                            /* 24 ÷ 16 
+  */    
+  section h2, aside h2 {font-size: 1.125em; }                                              
+                                            /* 18 ÷ 16 
+  */
+  }
+  
+  * mobile landscape to tablet portrait */
+  @media only screen and (max-width: 767px) {
+      #nav_menu {display: none; }    
+      #mobile_menu {display: block;}    
+      .slicknav_menu {
+          background-color: #facd8a !important; }    
+      body { 
+            width: 100%;             /* full width of screen */        
+            margin: 0;               /* no margins */        
+            border: none;            /* no border */    
+  }       
+  header, footer p { text-align: center; }    
+  footer p { margin-right: 0; }    
+  header h2 {
+      font-size: 1.625em;            /* 26 ÷ 16 */        
+      margin: .4em 0 .25em 0;    
+  }    
+  header h3 {        
+      font-size: 1em;                /* base font size */        
+      margin-left: 0;    
+  }
+  header img { float: none; }
+      article {        
+        width: 95.9596%                /* 100 - padding */        
+        float: none;        margin-right: 2.0202%;         /* 20 ÷ 990 x 100 */        
+        padding-right: 0;  
+    }    
+    article img {       
+      float: left;      
+      width: 50%;     
+      margin-right: 2%;   
+    }   
+    aside {       
+      width: 91.9192%;    /* 100 - padding and margins */      
+      float: none;       
+      margin: 0 2.0202% 2.0202% 2.0202%;                
+                  /* 20 ÷ 990 x 100 */  
+     }
+  }
+ /* mobile portrait to mobile landscape */
+ @media only screen and (max-width: 479px) {
+    header h2 {font-size: 1.375em; }         /* 22 ÷ 16 */
+    header h3 { font-size: .8125em; }         /* 13 ÷ 16 */
+    p { font-size: .875em; }                  /* 14 ÷ 16 */    
+    article h1, aside h2 {        
+      font-size: 1em; }              /* base font size */    
+    aside li {font-size: .875em; }           /* 14 ÷ 16 */
+ }    
+    article img {       
+      float: none;        
+      width: 100%;        
+      margin-right: 0;
+ }    
+    aside h3 { font-size: .9375em; }          /* 15 ÷ 16 */    
+    footer p {font-size: .6875em; }          /* 11 ÷ 16 */
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ .footer {    
   position: fixed;    
   left: 0;    
   bottom: 0;    
